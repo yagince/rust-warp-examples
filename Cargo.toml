@@ -6,6 +6,7 @@ edition = "2018"
 
 [dependencies]
 anyhow = "=1.0.36"
+thiserror = "=1.0.23"
 warp = "=0.2.5"
 tokio = { version = "0.2.21", features = ["full"] }
 env_logger = "=0.8.2"
