@@ -1,0 +1,17 @@
+[package]
+name = "rust_warp_examples"
+version = "0.1.0"
+authors = ["yagince <xxxx@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "=1.0.36"
+warp = "=0.2.5"
+tokio = { version = "0.2.21", features = ["full"] }
+env_logger = "=0.8.2"
+serde_derive = "=1.0.118"
+serde = "=1.0.118"
+serde_json = "=1.0.61"
+
+[dev-dependencies]
+assert-json-diff = "1.1.0"
